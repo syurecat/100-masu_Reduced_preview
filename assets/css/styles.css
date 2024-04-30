@@ -1,0 +1,9 @@
+.Header_site_name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.site-header {
+    position: relative;
+    background-color: #c2e0c7;
+}
