@@ -9,7 +9,7 @@
     z-index: 999;
 }
 
-.header_inner {
+.header-inner {
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
     position: relative;
 }
 
-.header__title {
+.header-title {
     width: 80px;
 }
 
@@ -28,7 +28,7 @@
     font-weight: bold;
 }
 
-.header__title img {
+.header-title img {
     display: block;
     width: 100%;
     height: 100%;
@@ -44,7 +44,7 @@
 }
 
   /* ナビのリンク */
-.nav-items__item a {
+.nav-items-item a {
     color: black;
     width: 100%;
     display: block;
