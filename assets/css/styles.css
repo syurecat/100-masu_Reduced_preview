@@ -47,19 +47,22 @@
     transition: ease .4s; /*ハンバーガーメニュークリック時のナビゲーションメニュー出現を遅延*/
 }
 
-.header-nav-item {
+.header-nav-list {
     padding-top: 250px;
     padding-bottom: 200px;
 }
 
-  /* ナビのリンク */
-.nav-items-item a {
+.header-nav-item a {
     color: black;
     width: 100%;
     display: block;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 24px;
+}
+
+.header-nav-item:last-child a{
+    margin-bottom: 0;
 }
 
 .header-hamburger{
