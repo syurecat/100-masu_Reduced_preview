@@ -9,7 +9,7 @@
     z-index: 999;
 }
 
-.header__inner {
+.header_inner {
     padding: 0 20px;
     display: flex;
     align-items: center;
