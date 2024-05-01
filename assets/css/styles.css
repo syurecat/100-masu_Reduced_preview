@@ -91,3 +91,21 @@
 .header-hamburger span:nth-child(3){
     top: 0;
 }
+
+.header-nav.active{
+    transform: translateX(0);
+}
+
+.header-hamburger.active span:nth-child(1){
+    top: 5px;
+    transform: rotate(45deg);
+}
+
+.header-hamburger.active span:nth-child(2){
+    opacity: 0;
+}
+
+.header-hamburger.active span:nth-child(3){
+    top: -13px;
+    transform: rotate(-45deg);
+}
