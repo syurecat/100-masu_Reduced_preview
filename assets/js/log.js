@@ -7,3 +7,8 @@ const fetchIpAddress = async() => {
 console.log(fetchIpAddress);
 const userAgent = navigator.userAgent;
 console.log(userAgent);
+const userData = {
+    "ipaddress": fetchIpAddress,
+    "agent": userAgent
+};
+doPost(gasURL, userData);
