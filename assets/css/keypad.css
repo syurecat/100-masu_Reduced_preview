@@ -1,0 +1,20 @@
+#keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.key {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.key:active {
+    background-color: #666;
+}
