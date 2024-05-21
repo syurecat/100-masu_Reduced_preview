@@ -1,6 +1,6 @@
 function start() {
-    var quiz_x = generate_random_quiz;
-    var quiz_y = generate_random_quiz;
+    var quiz_x = generate_random_quiz();
+    var quiz_y = generate_random_quiz();
 
     quiz_x.forEach((item, index) => {
         const cellId = `quiz_x${index + 1}`
