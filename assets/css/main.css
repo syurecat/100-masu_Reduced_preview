@@ -1,4 +1,31 @@
-.main{
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    height: inherit;
+    max-width: 1200px;
+}
+
+.quiz_table, #menu {
+    width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .quiz_table {
+        width: 70%;
+    }
+
+    #menu {
+        width: 25%;
+    }
 }

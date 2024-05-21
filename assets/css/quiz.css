@@ -1,29 +1,36 @@
 .quiz_table{
-    width:900px;
-    height:600px;
-    border:3px solid #a58763;
-    border-collapse:collapse;
+    height: 100px;
+    border: 3px solid #a58763;
+    border-collapse: collapse;
     background-size: 100% auto;
     margin-right:10px;
+	margin-left: 10px;
     box-sizing: border-box;
+}
+
+@media screen and (min-width: 960px) {
+	.quiz_table{
+		height: 600px;
+	}
 }
 
 .quiz_table td, .quiz_table th{
 	background-color:#FFFFFF;
 	padding:0px !important;
-	margin:0px !important;
-	margin:0px !important;
+	margin: 0px !important;
+	margin: 0px !important;
 	width: calc(950px / 11);
-	height: calc(540px / 11);
-	text-align:center;
-	font-size:30px;
-	font-weight:bold;
+	height:calc(540px / 11);
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24px;
+	font-weight: bold;
 	font-family: arial, sans-serif;
-	color:#7A6054;
-	border:1px solid #CECECE;
+	color: #7A6054;
+	border: 1px solid #CECECE;
 }
 
 .quiz_table th{
-	background-color:#ffbe63;
-	color:#353535;
+	background-color: #ffbe63;
+	color: #353535;
 }
