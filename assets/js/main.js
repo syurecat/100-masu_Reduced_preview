@@ -3,18 +3,22 @@ function start() {
     var quiz_y = generate_random_quiz();
 
     quiz_x.forEach((item, index) => {
-        const cellId = `quiz_x${index + 1}`
+        const cellId = `quiz_x${String(index + 1).padStart(2, '0')}`
         const cell = document.getElementById(cellId);
         if (cell) cell.textContent = item;
     });
     quiz_y.forEach((item, index) => {
-        const cellId = `quiz_y${index + 1}`
+        const cellId = `quiz_y${String(index + 1).padStart(2, '0')}`
         const cell = document.getElementById(cellId);
         if (cell) cell.textContent = item;
     });
 
-    document.getElementById(bn_start).innerText = "Enter";
-    document.getElementById(bn_start).onclick = check()
+    document.getElementById("bn_start").innerText = "Enter";
+    document.getElementById("bn_start").onclick = check()
+}
+
+function check() {
+
 }
 
 function generate_random_quiz() {
